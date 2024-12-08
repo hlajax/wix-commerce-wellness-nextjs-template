@@ -14,7 +14,6 @@ export function HomeScreen({
 }) {
   return (
     <div className="mx-auto relative">
-
        {/* Hero Section */}
       <section className="bg-green-50 py-20 px-6 text-center">
         <div className="max-w-4xl mx-auto">
@@ -22,16 +21,18 @@ export function HomeScreen({
             Votre Bien-Être, Notre Passion
           </h1>
           <p className="text-lg text-green-700 mb-10">
-            Découvrez notre gamme de produits naturels soigneusement sélectionnés pour améliorer votre santé et votre qualité de vie. Chaque produit est conçu pour vous aider à atteindre votre équilibre optimal.
+            Découvrez notre gamme de produits naturels soigneusement sélectionnés
+            pour améliorer votre santé et votre qualité de vie. Chaque produit
+            est conçu pour vous aider à atteindre votre équilibre optimal.
           </p>
-          <a 
-            href="/shop" 
+          <a
+            href="/shop"
             className="bg-green-600 text-white px-8 py-3 rounded-full hover:bg-green-700 transition-colors"
           >
             Découvrir Nos Produits
           </a>
         </div>
-      </section>      
+      </section>     
       <div className="relative">
         <div className="flex sm:flex-row flex-col bg-zinc-900">
           <div className="basis-1/2 text-center sm:text-left relative">
