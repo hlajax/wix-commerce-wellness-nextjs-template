@@ -13,8 +13,23 @@ export function HomeScreen({
   productsForCategories: { category: string; product: products.Product }[];
 }) {
   return (
-    <div className="mx-auto relative">
-    </div>
+    <section className="bg-gradient-to-r from-green-100 to-blue-100 py-20 px-4 text-center">
+  <div className="max-w-4xl mx-auto">
+    <h1 className="text-4xl sm:text-6xl font-bold text-gray-800 mb-6">
+      Votre Bien-être, Notre Passion
+    </h1>
+    <p className="text-xl text-gray-600 mb-10 max-w-2xl mx-auto">
+      Découvrez notre collection exclusive de produits naturels conçus pour
+      améliorer votre santé et votre qualité de vie.
+    </p>
+    <Link
+      href="/shop"
+      className="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-full transition duration-300 ease-in-out transform hover:scale-105"
+    >
+      Découvrir nos Produits
+    </Link>
+  </div>
+</section>;
     <div className="mx-auto relative">
       <div>
         <div className="flex sm:flex-row flex-col bg-zinc-900">
