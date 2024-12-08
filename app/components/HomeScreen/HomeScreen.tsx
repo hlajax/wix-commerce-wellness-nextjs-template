@@ -22,9 +22,8 @@ export function HomeScreen({
               data-testid={testIds.HOME_PAGE.HEADER}
             >
               <h1 className="text-5xl sm:text-[120px] leading-none animate-fade-in">
-                USA
-                <br /> SUMMER
-                <br /> TOUR
+                Votre Bien-être,
+                <br /> Notre Passion
               </h1>
               <h3 className="text-base sm:text-2xl py-6">
                 A NEW ALBUM BY{' '}
