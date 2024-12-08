@@ -21,14 +21,13 @@ export function HomeScreen({
               className="px-10 sm:px-14 py-6 bg-site"
               data-testid={testIds.HOME_PAGE.HEADER}
             >
-              <h1 className="text-5xl sm:text-[120px] leading-none animate-fade-in">
+              <h1 className="text-2xl sm:text-[120px] leading-none animate-fade-in">
                 Votre Bien-être,
                 <br /> Notre Passion
               </h1>
-              <h3 className="text-base sm:text-2xl py-6">
-                A NEW ALBUM BY{' '}
-                <span className="text-purple-500">TALI$A KIDD</span>
-              </h3>
+              <p className="text-base sm:text-2xl py-6">
+                Découvrez notre collection exclusive de produits naturels conçus pour améliorer votre santé et votre qualité de vie
+              </p>
               <div className="flex text-gray-700 gap-4 justify-center sm:justify-start">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
