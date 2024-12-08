@@ -43,14 +43,11 @@ export function HomeScreen({
                     d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"
                   />
                 </svg>
-                {/* Autres icônes similaires */}
               </div>
             </div>
           </div>
         </div>
       </div>
-
-      {/* Nouvelle section : Hero */}
       <section className="relative bg-blue-50 py-20 text-center">
         <h1 className="text-4xl sm:text-5xl font-bold text-gray-800 mb-4">
           Bienvenue dans notre boutique de santé et bien-être
@@ -65,8 +62,6 @@ export function HomeScreen({
           Voir les produits
         </button>
       </section>
-
-      {/* Nouvelle section : Produits phares */}
       <section className="py-20 bg-gray-100">
         <h2 className="text-3xl font-bold text-gray-800 text-center mb-10">
           Nos produits phares
@@ -97,8 +92,6 @@ export function HomeScreen({
           <a href="/shop">Voir tous les produits</a>
         </div>
       </section>
-
-      {/* Nouvelle section : Pourquoi choisir nos produits */}
       <section className="py-20 bg-white">
         <h2 className="text-3xl font-bold text-gray-800 text-center mb-10">
           Pourquoi choisir nos produits ?
@@ -119,7 +112,6 @@ export function HomeScreen({
               Produits 100% naturels et écologiques.
             </p>
           </div>
-          {/* Autres avantages similaires */}
         </div>
       </section>
     </div>
