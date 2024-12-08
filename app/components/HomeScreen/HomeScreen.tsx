@@ -87,7 +87,7 @@ export function HomeScreen({
           </div>
           <div className="basis-1/2">
             <Image
-              src="https://res.cloudinary.com/aseed/image/upload/v1733663699/alafia/87b451704b_tqmmt6.jpg"
+              src="https://static.wixstatic.com/media/cdfbfd_a89d7229d8c343db9eb675c0bcde5618~mv2.png"
               alt="TALI$A"
               className="w-full px-10 sm:px-0"
               width={1000}
