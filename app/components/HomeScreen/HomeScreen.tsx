@@ -28,12 +28,6 @@ export function HomeScreen({
               <h3 className="text-base sm:text-2xl py-6">
                 PRODUITS DE SANTÉ ET BIEN-ÊTRE POUR TOUS{' '}
               </h3>
-              <a
-              href="/shop"
-              className="btn-main rounded-2xl text-base px-8 py-2.5"
-              >
-              Get Merch
-              </a>
               <div className="flex text-gray-700 gap-4 justify-center sm:justify-start">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
