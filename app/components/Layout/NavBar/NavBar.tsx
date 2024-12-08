@@ -6,13 +6,13 @@ import { usePathname } from 'next/navigation';
 import Image from 'next/image';
 
 const navbarMainItems = [
-  { ref: '/', label: 'HOME' },
-  { ref: '/shop', label: 'MERCH' },
+  { ref: '/', label: 'ACCUEIL' },
+  { ref: '/shop', label: 'LA BOUTIQUE' },
 ];
 
 const navbarSecondrayItems = [
-  { ref: '/terms', label: 'TERMS & CONDITIONS' },
-  { ref: '/shipping', label: 'SHIPPING & RETURNS' },
+  { ref: '/terms', label: 'TERMES & CONDITIONS' },
+  { ref: '/shipping', label: 'LIVRAISON' },
   { ref: '/faq', label: 'FAQ' },
 ];
 
@@ -80,7 +80,7 @@ export function NavBar() {
             />
           </div>
           <h2 className="text-center text-2xl sm:text-[120px] z-20 sm:mt-[-150px]">
-            TALI$A KIDD
+            Alafia
           </h2>
         </div>
         <ul className="flex flex-col items-center gap-4 justify-end mt-4 sm:mt-[140px]">
