@@ -15,13 +15,13 @@ export function HomeScreen({
   return (
     <div className="mx-auto relative">
       <div className="relative">
-        <div className="flex sm:flex-row flex-col bg-zinc-900">
+        <div className="flex sm:flex-row flex-col bg-green-800">
           <div className="basis-1/2 text-center sm:text-left relative">
             <div
               className="px-10 sm:px-14 py-6 bg-site"
               data-testid={testIds.HOME_PAGE.HEADER}
             >
-              <h1 className="text-3xl leading-none animate-fade-in">
+              <h1 className="text-3xl sm:text-[95px] leading-none animate-fade-in">
                 Votre Bien-être,
                 <br /> Notre Passion
               </h1>
