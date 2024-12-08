@@ -26,8 +26,8 @@ export function HomeScreen({
                 <br /> Notre Passion
               </h1>
               <p className="text-base sm:text-2xl py-6">
-                Découvrez notre collection exclusive de produits naturels conçus pour
-                améliorer votre santé et votre qualité de vie
+                Découvrez notre collection exclusive de produits naturels 
+                <br /> conçus pour améliorer votre santé et votre qualité de vie
               </p>
               <div className="flex text-gray-700 gap-4 justify-center sm:justify-start">
                 <svg
