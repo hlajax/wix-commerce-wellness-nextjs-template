@@ -81,7 +81,7 @@ export function HomeScreen({
                 </svg>
               </div>
             </div>
-            <div className="bg-zinc-900 h-[75px] w-full"></div>
+            <div className="bg-green-800 h-[75px] w-full"></div>
           </div>
           <div className="basis-1/2">
             <Image
