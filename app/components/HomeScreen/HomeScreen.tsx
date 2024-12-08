@@ -21,12 +21,12 @@ export function HomeScreen({
               className="px-10 sm:px-14 py-6 bg-site"
               data-testid={testIds.HOME_PAGE.HEADER}
             >
-              <h1 className="text-2xl leading-none animate-fade-in">
+              <h1 className="text-3xl leading-none animate-fade-in">
                 Votre Bien-être,
                 <br /> Notre Passion
               </h1>
               <h3 className="text-base sm:text-2xl py-6">
-                PRODUITS DE SANTÉ ET BIEN-ÊTRE POUR TOUS{' '}
+                PRODUITS DE SANTÉ ET BIEN-ÊTRE POUR TOUS
               </h3>
               <div className="flex text-gray-700 gap-4 justify-center sm:justify-start">
                 <svg
@@ -95,8 +95,8 @@ export function HomeScreen({
         </div>
         <Image
           className="absolute inset-x-2/4 -translate-x-2/4 -translate-y-[20%] bottom-0 top-[20%] hidden sm:block"
-          src="https://static.wixstatic.com/media/c22c23_14f3a617cd684341b51dd1a3962c856e~mv2.png/v1/fill/w_202,h_245,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/c22c23_14f3a617cd684341b51dd1a3962c856e~mv2.png"
-          alt="TALI$A"
+          src=""
+          alt=""
           width={202}
           height={245}
         />
