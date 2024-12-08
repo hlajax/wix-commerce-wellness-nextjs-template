@@ -95,7 +95,7 @@ export function HomeScreen({
         </div>
       </div>
       {events?.length ? (
-        <div className="bg-zinc-900 text-site pt-16 sm:p-20">
+        <div className="bg-green-800 text-site pt-16 sm:p-20">
           <Events events={events} />
         </div>
       ) : (
