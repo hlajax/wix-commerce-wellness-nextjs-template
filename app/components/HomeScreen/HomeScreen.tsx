@@ -14,7 +14,7 @@ export function HomeScreen({
 }) {
   return (
     <div className="mx-auto relative">
-        <div className="relative">
+      <div className="relative">
         <div className="flex sm:flex-row flex-col bg-zinc-900">
           <div className="basis-1/2 text-center sm:text-left relative">
             <div
