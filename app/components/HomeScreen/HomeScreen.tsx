@@ -22,14 +22,18 @@ export function HomeScreen({
               data-testid={testIds.HOME_PAGE.HEADER}
             >
               <h1 className="text-5xl sm:text-[120px] leading-none animate-fade-in">
-                USA
-                <br /> SUMMER
-                <br /> TOUR
+                Votre Bien-être,
+                <br /> Notre Passion
               </h1>
               <h3 className="text-base sm:text-2xl py-6">
-                A NEW ALBUM BY{' '}
-                <span className="text-purple-500">TALI$A KIDD</span>
+                PRODUITS DE SANTÉ ET BIEN-ÊTRE POUR TOUS{' '}
               </h3>
+              <a
+              href="/shop"
+              className="btn-main rounded-2xl text-base px-8 py-2.5"
+              >
+              Get Merch
+              </a>
               <div className="flex text-gray-700 gap-4 justify-center sm:justify-start">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
