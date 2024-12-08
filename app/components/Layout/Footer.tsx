@@ -8,7 +8,7 @@ const Footer = () => (
     data-testid={testIds.LAYOUT.FOOTER}
   >
     <ScrollIntoView hashName="#contact" />
-    <div className="bg-lime-800 text-white text-center py-6">
+    <div className="bg-green-800 text-white text-center py-6">
       <h2 className="text-2xl sm:text-4xl font-bold">
         POUR COMMANDER LES PRODUITS
       </h2>
