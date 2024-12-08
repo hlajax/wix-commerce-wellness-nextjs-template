@@ -16,6 +16,9 @@ const Header = () => (
         <div>
           <Login />
         </div>
+        <div>
+          <Login />
+        </div>
 
         <div>
           <CartBag />
