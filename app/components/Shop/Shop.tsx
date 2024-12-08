@@ -9,11 +9,9 @@ export function Shop({ items }: { items: products.Product[] }) {
         className="bg-black text-custom-1 text-center py-4 sm:py-10 sm:py-20 h-[450px] sm:h-[520px]"
         data-testid={testIds.SHOP_PAGE.HEADER}
       >
-        <h1 className="uppercase text-3xl sm:text-6xl">Merch</h1>
+        <h1 className="uppercase text-3xl sm:text-6xl">La boutique</h1>
         <p className="text-sm sm:text-base mx-auto px-8 sm:max-w-[50%] my-10">
-          I’m a paragraph. I’m a great space to write about what makes the
-          products special and explain how customers can benefit from these
-          items.
+          Nous fournissons une large gamme de compléments alimentaires.
         </p>
       </div>
       {items.length ? (
@@ -48,7 +46,7 @@ export function Shop({ items }: { items: products.Product[] }) {
                       className="btn-main absolute -mt-10 left-0 cursor-pointer"
                       href={`/api/quick-buy/${item._id}?quantity=1`}
                     >
-                      Buy Now
+                      Ajouter au panier
                     </a>
                   ) : (
                     <button
