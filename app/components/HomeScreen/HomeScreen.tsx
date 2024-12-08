@@ -120,7 +120,7 @@ export function HomeScreen({
               Nos Produits
             </h1>
             <p className="text-lg my-10 text-black">
-              Nous fournissons une large gamme de Supplements nutritionnels à base de plantes et de cosmétiques.
+              Nous fournissons une large gamme de produits.
             </p>
             <a
               href="/shop"
