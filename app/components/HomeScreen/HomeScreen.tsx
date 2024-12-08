@@ -13,6 +13,12 @@ export function HomeScreen({
   productsForCategories: { category: string; product: products.Product }[];
 }) {
   return (
+    <div className="bg-gradient-to-r from-green-100 to-green-200 py-20 px-6 text-center">
+        <h1 className="text-2xl sm:text-[120px] leading-none animate-fade-in">
+            Votre Bien-être,
+            <br /> Notre Passion
+        </h1>
+    </div>
     <div className="mx-auto relative">
       <div>
         <div className="flex sm:flex-row flex-col bg-zinc-900">
