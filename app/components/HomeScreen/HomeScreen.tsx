@@ -21,7 +21,7 @@ export function HomeScreen({
               className="px-10 sm:px-14 py-6 bg-site"
               data-testid={testIds.HOME_PAGE.HEADER}
             >
-              <h1 className="text-base sm:text-[120px] leading-none animate-fade-in">
+              <h1 className="text-xl leading-none animate-fade-in">
                 Votre Bien-être,
                 <br /> Notre Passion
               </h1>
@@ -124,7 +124,7 @@ export function HomeScreen({
         <div className="flex gap-2 sm:gap-14 px-14 flex-col sm:flex-row">
           <div className="text-custom-1 text-center sm:text-left pt-10 sm:py-20 basis-1/2">
             <h1 className="uppercase text-4xl sm:text-7xl text-center sm:text-left text-black">
-              Merch
+              Nos Produits
             </h1>
             <p className="text-lg my-10 text-black">
               I am a paragraph. I’m a great space to write about what makes the
@@ -135,7 +135,7 @@ export function HomeScreen({
               href="/shop"
               className="btn-main rounded-2xl text-base px-8 py-2.5"
             >
-              Get Merch
+              Nos Produits
             </a>
             {productsForCategories[1]?.product?.media?.mainMedia ? (
               <div className="mt-10 sm:mt-[300px]">
