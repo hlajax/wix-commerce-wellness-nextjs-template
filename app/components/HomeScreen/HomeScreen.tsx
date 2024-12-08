@@ -93,13 +93,6 @@ export function HomeScreen({
             />
           </div>
         </div>
-        <Image
-          className="absolute inset-x-2/4 -translate-x-2/4 -translate-y-[20%] bottom-0 top-[20%] hidden sm:block"
-          src=""
-          alt=""
-          width={202}
-          height={245}
-        />
       </div>
       {events?.length ? (
         <div className="bg-zinc-900 text-site pt-16 sm:p-20">
