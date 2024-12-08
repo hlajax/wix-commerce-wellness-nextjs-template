@@ -87,8 +87,8 @@ export function HomeScreen({
           </div>
           <div className="basis-1/2">
             <Image
-              src="https://res.cloudinary.com/aseed/image/upload/v1733653117/alafia/alafia-hero_heryno.png"
-              alt="ALAFIAHERO"
+              src="https://res.cloudinary.com/aseed/image/upload/v1733663699/alafia/87b451704b_tqmmt6.jpg"
+              alt="TALI$A"
               className="w-full px-10 sm:px-0"
               width={1000}
               height={800}
