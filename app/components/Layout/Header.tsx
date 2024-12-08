@@ -14,10 +14,10 @@ const Header = () => (
           <a href="/">ALAFIA</a>
         </h2>
         <div>
-          <Login />
+          <a href="/">Accueil</a>
         </div>
         <div>
-          <Login />
+          <a href="/shop">Tous les produits</a>
         </div>
 
         <div>
