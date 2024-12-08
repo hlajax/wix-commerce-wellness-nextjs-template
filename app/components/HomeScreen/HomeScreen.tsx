@@ -120,9 +120,7 @@ export function HomeScreen({
               Nos Produits
             </h1>
             <p className="text-lg my-10 text-black">
-              I am a paragraph. I’m a great space to write about what makes the
-              products special and explain how customers can benefit from these
-              items.
+              Nous fournissons une large gamme de Supplements nutritionnels à base de plantes et de cosmétiques.
             </p>
             <a
               href="/shop"
