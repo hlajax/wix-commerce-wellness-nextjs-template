@@ -6,7 +6,7 @@ export function Shop({ items }: { items: products.Product[] }) {
   return (
     <div className="mx-auto">
       <div
-        className="bg-lime-900 text-custom-1 text-center py-4 sm:py-10 sm:py-20 h-[450px] sm:h-[520px]"
+        className="bg-green-800 text-custom-1 text-center py-4 sm:py-10 sm:py-20 h-[450px] sm:h-[520px]"
         data-testid={testIds.SHOP_PAGE.HEADER}
       >
         <h1 className="uppercase text-3xl sm:text-6xl">La boutique</h1>
